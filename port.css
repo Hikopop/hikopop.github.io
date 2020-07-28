@@ -32,11 +32,11 @@
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 70vh;
+    height: 80vh;
 }
 
 .global-nav h1 {
-    font-size: 5rem;
+    font-size: 9vw;
     font-family: 'Pacifico', cursive;
     color: var(--primary-050);
     text-shadow: 1px 1px 0 var(--dark-026);
@@ -46,7 +46,7 @@
 }
 
 .global-nav h2 {
-    font-size: 2rem;
+    font-size: 5vw;
     color: var(--primary-050);
     text-shadow: 1px 1px 0 var(--dark-026);
     text-align: center;
@@ -64,7 +64,7 @@
     text-decoration: none;
     display: inline-block;
     line-height: 1;
-    font-size: 1.5rem;
+    font-size: 3vw;
     padding: calc(1.25rem - 4px)4rem;
     transition: color,background-color 0.3s;
     border-right: 1px solid var(--dark-012);
@@ -81,35 +81,159 @@
     border-right: none;
 }
 
-.content{
+.About{
     background-image: url("black.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 70vh;
+    height: 80vh;
 }
 
-section h1{
-    font-size: 4rem;
+.About h1{
+    font-size: 9vw;
     color: var(--primary-050);
     text-shadow: 1px 1px 0 var(--dark-026);
     text-align: center;
     font-family: 'Pacifico', cursive;
 }
+
 .trim{
-    position: relative;
-    overflow: hidden;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    margin-left: 300px;
+    margin-top: 3rem;
 }
+
 .trim img{
-    position: absolute;
-    top: 30%;
-    left: 90%;
-    transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
+    border-radius: 50%;
+    width: 18%;
+    height: 18%;
+    margin-left: 20%;
+    float: left;
+    margin-right: 1%;
 }
+
+.trim p{
+    font-size: 3.5vw;
+    color: var(--primary-050);
+}
+
+.Works{
+    background-image: url("black.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.Works h1{
+    font-size: 9vw;
+    color: var(--primary-050);
+    text-shadow: 1px 1px 0 var(--dark-026);
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+.Works h2{
+    font-size: 2vw;
+    color: var(--primary-050);
+    text-shadow: 1px 1px 0 var(--dark-026);
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#gallery {
+    font-family: Arial, "ＭＳ Ｐゴシック", sans-serif;
+    max-width: 800px; 
+    margin: 0 auto;
+    display: flex;    
+    flex-flow: wrap;  
+    margin-left: 25%;
+  }
+  #gallery dl {
+    flex: 200px;    
+    float: left; 
+    height: 47vh;   
+    width: 50%;   
+    margin-right:5%;
+    margin-bottom: 1em;
+    padding: 0;
+    font-size: 16px;
+    background-color:var(--secondary-050) ;
+    border:1px solid #933;
+    text-align: center;  
+    box-sizing: border-box;
+  }
+  #gallery:after { 
+    content: "";
+    flex: 200px;
+    margin-right: 5px;
+    display: block;
+  }
+  #gallery dl img {
+    border: 0;
+    width: 100%;
+    height: auto;
+  }
+  #gallery dt {
+    margin: 0;
+    padding: 2px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+  }
+  #gallery dd {
+    margin: 0;
+    padding: 0;
+    display: inline-block
+    height:100%;
+  }
+  #gallery dd.comment {
+    height: 3em;  
+    padding: 2px 5px;
+    line-height: 1.3;
+    text-align: left;
+    color: #fff;
+  }
+
+  .Skill {
+    background-image: url("black.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.Skill h1{
+    font-size: 9vw;
+    color: var(--primary-050);
+    text-shadow: 1px 1px 0 var(--dark-026);
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+.skills {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+
+
+.star{
+    font-family: "Font Awesome 5 Free";
+  font-size: 15px;
+  color: #fc6530;
+}
+.star:before{
+  font-weight: 900;
+}
+.star:after{
+  font-weight: 400;
+}
+
+.star[date-rate="3.0"]::before{content: "\f005\f005\f005";}
