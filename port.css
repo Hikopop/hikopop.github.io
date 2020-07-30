@@ -152,7 +152,7 @@
   #gallery dl {
     flex: 200px;    
     float: left; 
-    height: 47vh;   
+    height: 51vh;   
     width: 50%;   
     margin-right:5%;
     margin-bottom: 1em;
@@ -185,7 +185,6 @@
     margin: 0;
     padding: 0;
     display: inline-block
-    height:100%;
   }
   #gallery dd.comment {
     height: 3em;  
@@ -201,7 +200,7 @@
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 100vh;
+    height: 120vh;
 }
 
 .Skill h1{
@@ -214,26 +213,72 @@
 
 .skills {
     list-style-type: none;
-    display: flex;
-    justify-content: center;
     padding: 1rem;
     width: 80%;
-    margin: 0 auto;
     max-width: 500px;
+    margin: 0 auto;
 }
 
 
 
 .star{
-    font-family: "Font Awesome 5 Free";
-  font-size: 15px;
+  font-family: "Font Awesome 5 Free";
+  font-size: 3rem;
   color: #fc6530;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.illu{
+    color: var(--primary-050);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.photo{
+    color: var(--primary-050);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.maya{
+    color: var(--primary-050);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.css{
+    color: var(--primary-050);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.c{
+    color: var(--primary-050);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.html{
+    color: var(--primary-050);
+    font-size: 2rem;
+    text-align: center;
 }
 .star:before{
   font-weight: 900;
+  text-align: center;
 }
 .star:after{
   font-weight: 400;
+  text-align: center;
 }
 
 .star[date-rate="3.0"]::before{content: "\f005\f005\f005";}
+.star[date-rate="3.0"]::after{content: "\f005\f005";}
+
+.star[date-rate="2.5"]::before{content: "\f005\f005\f5c0";}
+.star[date-rate="2.5"]::after{content: "\f005\f005";}
+
+.star[date-rate="3.5"]::before{content: "\f005\f005\f005\f5c0";}
+.star[date-rate="3.5"]::after{content: "\f005";}
